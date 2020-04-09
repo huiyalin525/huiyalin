@@ -1,0 +1,12 @@
+
+person:
+  name: wanggang
+  age: 18
+  lists:
+    - 1
+    - 2
+
+  maps: {1: v1,2: 12}
+  dog:
+    name: 小狗
+    size: 18

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en"xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3>成功</h3>
+<div th:text="${hello}"></div>
+<div th:utext="${hello}"></div>
+<!--当th:each 放到那个标签那个标签就被循环输出-->
+<h3 th:text="user" th:each="user:${users}"></h3>
+<h3>
+    <span th:text="user" th:each="user:${users}"></span>
+</h3>
+</body>
+</html>

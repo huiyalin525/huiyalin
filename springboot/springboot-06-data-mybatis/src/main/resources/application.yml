@@ -1,0 +1,33 @@
+spring:
+   datasource:
+      username: "root"
+      password: "000000"
+      url: jdbc:mysql://localhost:3306/lainxi?useUnicode=true&characterEncoding=UTF-8&serverTimezone=America/New_York&useSSL=false
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      type: com.alibaba.druid.pool.DruidDataSource
+      initialization-mode: always
+#      schema:
+#          - classpath:sql/employee.sql
+         #   数据源其他配置
+      initialSize: 5
+      minIdle: 5
+      maxActive: 20
+      maxWait: 60000
+      timeBetweenEvictionRunsMillis: 60000
+      minEvictableIdleTimeMillis: 300000
+      validationQuery: SELECT 1 FROM DUAL
+      testWhileIdle: true
+      testOnBorrow: false
+      testOnReturn: false
+      poolPreparedStatements: true
+      #   配置监控统计拦截的filters，去掉后监控界面sql无法统计，'wall'用于防火墙
+      filters: stat,wall,log4j
+      maxPoolPreparedStatementPerConnectionSize: 20
+      useGlobalDataSourceStat: true
+      connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
+#当需要在项目中创建mysql是可以用
+#      schema:
+#        - classpath:department.sql
+mybatis:
+    config-location: classpath:com/mybatis-config.xml #指定全局配置文件的位置
+    mapper-locations: classpath:com/huiyalin/*.xml  #指定sql映射文件的位置
