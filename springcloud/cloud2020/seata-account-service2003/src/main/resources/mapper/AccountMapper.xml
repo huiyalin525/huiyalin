@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.huiyalinalibaba.dao.AccountDao">
+    <resultMap id="BaseResultMap" type="com.huiyalinalibaba.domain.Account">
+        <id column="id" property="id" jdbcType="BIGINT"></id>
+        <result column="user_id" property="productId" jdbcType="BIGINT"></result>
+        <result column="total" property="count" jdbcType="DECIMAL"></result>
+        <result column="used" property="money" jdbcType="DECIMAL"></result>
+        <result column="residue" property="residue" jdbcType="DECIMAL"></result>
+    </resultMap>
+
+
+    <update id="decrease">
+        update account_tbl
+        set used = used + #{money} ,residue = residue - #{money}
+        where user_id = #{userId}
+    </update>
+</mapper>
