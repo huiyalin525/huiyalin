@@ -1,0 +1,11 @@
+2020-03-06 22:00:21.955====[main]==== INFO  c.h.springboot.SpringBoot02ConfigApplicationTests ==== Starting SpringBoot02ConfigApplicationTests on PC-20170815GBGD with PID 9224 (started by Administrator in D:\java框架\springboot\spring-boot-02-config)
+2020-03-06 22:00:21.958====[main]==== DEBUG c.h.springboot.SpringBoot02ConfigApplicationTests ==== Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-06 22:00:21.959====[main]==== INFO  c.h.springboot.SpringBoot02ConfigApplicationTests ==== No active profile set, falling back to default profiles: default
+2020-03-06 22:00:25.859====[main]==== INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-06 22:00:26.774====[main]==== INFO  c.h.springboot.SpringBoot02ConfigApplicationTests ==== Started SpringBoot02ConfigApplicationTests in 6.957 seconds (JVM running for 10.351)
+2020-03-06 22:00:27.561====[main]==== TRACE com.huiyalin.springboot.bean.Person ==== 这是trace日志
+2020-03-06 22:00:27.561====[main]==== DEBUG com.huiyalin.springboot.bean.Person ==== 这是debug日志
+2020-03-06 22:00:27.562====[main]==== INFO  com.huiyalin.springboot.bean.Person ==== 这是info日志
+2020-03-06 22:00:27.563====[main]==== WARN  com.huiyalin.springboot.bean.Person ==== 这是warn日志
+2020-03-06 22:00:27.563====[main]==== ERROR com.huiyalin.springboot.bean.Person ==== 这是error日志
+2020-03-06 22:00:27.606====[SpringContextShutdownHook]==== INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Shutting down ExecutorService 'applicationTaskExecutor'

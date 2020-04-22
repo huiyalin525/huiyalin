@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cb3fef4e-21ad-4215-81e8-df469853d0a4" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\processsoft\maven\repository" />
+        <option name="mavenHome" value="D:/processsoft/maven/apache-maven-3.6.3-bin" />
+        <option name="userSettingsFile" value="D:\processsoft\maven\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Yp74FAMI6j5wXjWqhkJ86Gdo1t" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java框架\springboot\springboot-03-web-restfulcrud\src\main\resources\templates\error" />
+      <recent name="D:\java框架\springboot\springboot-03-web-restfulcrud\src\main\resources\templates\emp" />
+      <recent name="D:\java框架\springboot\springboot-03-web-restfulcrud\src\main\resources\templates" />
+      <recent name="D:\java框架\springboot\springboot-03-web-restfulcrud\src\main\java\com\huiyalin\springboot" />
+      <recent name="D:\java框架\springboot\springboot-03-web-restfulcrud\src\main\resources\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\java框架\springboot\springboot-03-web-restfulcrud\src\main\resources\templates\error" />
+      <recent name="D:\java框架\springboot\springboot-03-web-restfulcrud\src\main\resources\templates\emp" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Springboot03WebRestfulcrudApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-03-web-restfulcrud" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.huiyalin.springboot.Springboot03WebRestfulcrudApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cb3fef4e-21ad-4215-81e8-df469853d0a4" name="Default Changelist" comment="" />
+      <created>1583627488638</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583627488638</updated>
+      <workItem from="1583627493676" duration="30357000" />
+      <workItem from="1583713036478" duration="595000" />
+      <workItem from="1583714834015" duration="27618000" />
+      <workItem from="1583759783634" duration="2928000" />
+      <workItem from="1583801742894" duration="21119000" />
+      <workItem from="1583887258809" duration="5594000" />
+      <workItem from="1583933520330" duration="595000" />
+      <workItem from="1583974463711" duration="599000" />
+      <workItem from="1584058837751" duration="1029000" />
+      <workItem from="1584343187002" duration="206000" />
+      <workItem from="1584411913243" duration="476000" />
+      <workItem from="1585389570117" duration="113000" />
+      <workItem from="1585389984764" duration="638000" />
+      <workItem from="1586353787886" duration="557000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
